@@ -12,6 +12,8 @@ int main()
     printf("%s",str);
     i++;
   }
+  else
+  break;
   }
   return 0;
 }
