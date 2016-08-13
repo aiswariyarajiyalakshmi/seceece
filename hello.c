@@ -2,13 +2,16 @@
 #include<string.h>
 int main()
 {
-  char s[10];
+  char str[10];
   int i=1;
-  scanf("%s",s);
+  scanf("%s",str);
+  if(strcmp(str=="Hello")=0)
+  {
   while(i>5)
   {
-    printf("%s",s);
+    printf("%s",str);
     i++;
+  }
   }
   return 0;
 }
